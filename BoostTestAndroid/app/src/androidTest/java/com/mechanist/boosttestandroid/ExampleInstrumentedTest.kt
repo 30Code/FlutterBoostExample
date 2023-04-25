@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid
+package com.mechanist.boosttestandroid
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

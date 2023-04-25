@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid.utils;
+package com.mechanist.boosttestandroid.utils;
 
 import android.content.Context;
 

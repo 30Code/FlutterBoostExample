@@ -1,17 +1,11 @@
-package com.irfaan008.boosttestandroid
+package com.mechanist.boosttestandroid
 
 import android.app.Activity
 import android.app.Application
-import android.content.Intent
 import android.os.Bundle
-import com.idlefish.flutterboost.FlutterBoost
-import com.idlefish.flutterboost.FlutterBoostDelegate
-import com.idlefish.flutterboost.FlutterBoostRouteOptions
-import com.idlefish.flutterboost.containers.FlutterBoostActivity
-import com.irfaan008.boosttestandroid.flutterboost.FlutterBoostInit
-import com.irfaan008.boosttestandroid.utils.FContext
+import com.mechanist.boosttestandroid.flutterboost.FlutterBoostInit
+import com.mechanist.boosttestandroid.utils.FContext
 import com.mei.myhost.utils.ActivityUtils
-import io.flutter.embedding.android.FlutterActivityLaunchConfigs
 
 
 class App: Application() {

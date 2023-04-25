@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid
+package com.mechanist.boosttestandroid
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

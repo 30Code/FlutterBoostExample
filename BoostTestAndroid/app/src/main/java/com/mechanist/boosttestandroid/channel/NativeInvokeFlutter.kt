@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid.channel
+package com.mechanist.boosttestandroid.channel
 
 /**
  * @date 2022/8/22

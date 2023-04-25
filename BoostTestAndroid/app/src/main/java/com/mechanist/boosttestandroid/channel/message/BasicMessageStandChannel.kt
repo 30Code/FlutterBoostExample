@@ -1,8 +1,8 @@
-package com.irfaan008.boosttestandroid.channel.message
+package com.mechanist.boosttestandroid.channel.message
 
 import com.idlefish.flutterboost.FlutterBoost
 import io.flutter.plugin.common.BasicMessageChannel
-import io.flutter.plugin.common.JSONMessageCodec
+import io.flutter.plugin.common.StandardMessageCodec
 
 /**
  * @date 2022/8/22
@@ -10,21 +10,21 @@ import io.flutter.plugin.common.JSONMessageCodec
  * @desc    字符串消息通道
  * @desired
  */
-class BasicMessageJsonChannel : IMessageChannel<Any> {
+class BasicMessageStandChannel : IMessageChannel<Any> {
     companion object {
-        private const val FLUTTER_BASIC_MESSAGE_JSON = "flutter.channel.basic_message_json"
+        private const val FLUTTER_BASIC_MESSAGE_STAND = "flutter.channel.basic_message_stand"
     }
 
-    override val channelName = FLUTTER_BASIC_MESSAGE_JSON
+    override val channelName = FLUTTER_BASIC_MESSAGE_STAND
 
     /**
-     * 传递 Json 类型消息的通道
+     * 传递 任意对象 类型消息的通道
      */
     private val channel: BasicMessageChannel<Any> by lazy {
         BasicMessageChannel(
             FlutterBoost.instance().engine.dartExecutor,
             channelName,
-            JSONMessageCodec.INSTANCE
+            StandardMessageCodec.INSTANCE
         )
     }
 
@@ -44,6 +44,7 @@ class BasicMessageJsonChannel : IMessageChannel<Any> {
     }
 
     override fun send(message: Any?, callback: BasicMessageChannel.Reply<Any>?) {
+        channel.send(message, callback)
     }
 
 }

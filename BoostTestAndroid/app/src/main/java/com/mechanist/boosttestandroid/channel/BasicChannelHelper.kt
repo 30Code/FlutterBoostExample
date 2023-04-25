@@ -1,9 +1,9 @@
-package com.irfaan008.boosttestandroid.channel
+package com.mechanist.boosttestandroid.channel
 
-import com.irfaan008.boosttestandroid.channel.message.BasicMessageByteChannel
-import com.irfaan008.boosttestandroid.channel.message.BasicMessageJsonChannel
-import com.irfaan008.boosttestandroid.channel.message.BasicMessageStandChannel
-import com.irfaan008.boosttestandroid.channel.message.BasicMessageStringChannel
+import com.mechanist.boosttestandroid.channel.message.BasicMessageByteChannel
+import com.mechanist.boosttestandroid.channel.message.BasicMessageJsonChannel
+import com.mechanist.boosttestandroid.channel.message.BasicMessageStandChannel
+import com.mechanist.boosttestandroid.channel.message.BasicMessageStringChannel
 import io.flutter.plugin.common.BasicMessageChannel
 import org.json.JSONObject
 import java.nio.ByteBuffer

@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid.flutterboost
+package com.mechanist.boosttestandroid.flutterboost
 
 import android.app.Application
 import android.content.Intent
@@ -7,10 +7,10 @@ import com.idlefish.flutterboost.FlutterBoost
 import com.idlefish.flutterboost.FlutterBoostDelegate
 import com.idlefish.flutterboost.FlutterBoostRouteOptions
 import com.idlefish.flutterboost.containers.FlutterBoostActivity
-import com.irfaan008.boosttestandroid.LoginActivity
-import com.irfaan008.boosttestandroid.channel.BasicChannelHelper
-import com.irfaan008.boosttestandroid.channel.MethodChannelHelper
-import com.irfaan008.boosttestandroid.channel.event.EventChannelHelper
+import com.mechanist.boosttestandroid.LoginActivity
+import com.mechanist.boosttestandroid.channel.BasicChannelHelper
+import com.mechanist.boosttestandroid.channel.MethodChannelHelper
+import com.mechanist.boosttestandroid.channel.event.EventChannelHelper
 import io.flutter.embedding.android.FlutterActivityLaunchConfigs
 import io.flutter.embedding.engine.FlutterEngine
 

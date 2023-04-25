@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid
+package com.mechanist.boosttestandroid
 
 import org.junit.Test
 

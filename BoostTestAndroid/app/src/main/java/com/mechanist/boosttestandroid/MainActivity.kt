@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid
+package com.mechanist.boosttestandroid
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,11 +11,11 @@ import com.idlefish.flutterboost.FlutterBoost
 import com.idlefish.flutterboost.FlutterBoostRouteOptions
 import com.idlefish.flutterboost.ListenerRemover
 import com.idlefish.flutterboost.containers.FlutterBoostActivity
-import com.irfaan008.boosttestandroid.channel.event.EventChannelHelper
-import com.irfaan008.boosttestandroid.constant.Constant
-import com.irfaan008.boosttestandroid.databinding.ActivityMainBinding
-import com.irfaan008.boosttestandroid.utils.FPreferencesUtil
-import com.irfaan008.boosttestandroid.utils.LogUtil
+import com.mechanist.boosttestandroid.channel.event.EventChannelHelper
+import com.mechanist.boosttestandroid.constant.Constant
+import com.mechanist.boosttestandroid.databinding.ActivityMainBinding
+import com.mechanist.boosttestandroid.utils.FPreferencesUtil
+import com.mechanist.boosttestandroid.utils.LogUtil
 import io.flutter.embedding.android.FlutterActivityLaunchConfigs
 
 

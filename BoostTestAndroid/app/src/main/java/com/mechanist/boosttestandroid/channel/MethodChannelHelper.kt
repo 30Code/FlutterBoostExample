@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid.channel
+package com.mechanist.boosttestandroid.channel
 
 import android.content.ContextWrapper
 import android.content.Intent
@@ -8,8 +8,8 @@ import android.os.Build
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.idlefish.flutterboost.FlutterBoost
-import com.irfaan008.boosttestandroid.App
-import com.irfaan008.boosttestandroid.LoginActivity
+import com.mechanist.boosttestandroid.App
+import com.mechanist.boosttestandroid.LoginActivity
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 

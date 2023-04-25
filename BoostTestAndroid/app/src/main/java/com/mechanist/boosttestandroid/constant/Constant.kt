@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid.constant
+package com.mechanist.boosttestandroid.constant
 
 /**
  *  des :

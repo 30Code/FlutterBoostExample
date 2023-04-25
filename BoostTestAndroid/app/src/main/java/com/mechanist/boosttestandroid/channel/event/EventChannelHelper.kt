@@ -1,4 +1,4 @@
-package com.irfaan008.boosttestandroid.channel.event
+package com.mechanist.boosttestandroid.channel.event
 
 import android.util.Log
 import com.idlefish.flutterboost.FlutterBoost
