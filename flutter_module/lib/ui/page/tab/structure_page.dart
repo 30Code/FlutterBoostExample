@@ -69,7 +69,7 @@ class _StructureCategoryListState extends State<StructureCategoryList>
           }
           return Scrollbar(
             child: ListView.builder(
-                padding: EdgeInsets.all(15),
+
                 itemCount: model.list.length,
                 itemBuilder: (context, index) {
                   Tree item = model.list[index];
@@ -102,12 +102,23 @@ class StructureCategoryWidget extends StatelessWidget {
                   tree.children.length,
                   (index) => ActionChip(
                         onPressed: () {
+                          debugPrint("---ActionChip onclick-->");
                           Navigator.of(context).pushNamed(PageNum.articleCategoryTabPage,
                               arguments: [tree, index]);
+                          
+                          // BoostNavigator.instance.push(
+                          //   PageNum.messageListPage,
+                          //   withContainer: true,
+                          //   arguments: {"name": "消息列表"},
+                          //   opaque: false,
+                          // );
                         },
                         label: Text(
                           tree.children[index].name,
                           maxLines: 1,
+                          style: TextStyle(
+                            color: Colors.red
+                          ),
                         ),
                       )))
         ],
@@ -185,6 +196,9 @@ class NavigationSiteCategoryWidget extends StatelessWidget {
                         label: Text(
                           site.articles[index].title,
                           maxLines: 1,
+                          style: TextStyle(
+                            color: Colors.blue
+                          ),
                         ),
                       )))
         ],

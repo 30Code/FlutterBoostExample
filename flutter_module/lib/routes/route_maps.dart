@@ -11,7 +11,8 @@ import 'package:flutter_module/ui/page/coin/coin_record_list_page.dart';
 import 'package:flutter_module/ui/page/login/login_page.dart';
 import 'package:flutter_module/ui/page/login/register_page.dart';
 import 'package:flutter_module/ui/page/tab/project_page.dart';
-import 'package:flutter_module/ui/page/tab/structure_page.dart';
+
+import '../ui/page/tab/structure_page.dart';
 
 /// 路由表
 class RouteMap {
@@ -41,13 +42,13 @@ class RouteMap {
       return PageRouteBuilder<dynamic>(
           settings: settings, pageBuilder: (_, __, ___) => RegisterPage());
     },
-    // PageNum.articleCategoryTabPage: (settings, uniqueId) {
-    //   var list = settings.arguments as List;
-    //   Tree tree = list[0] as Tree;
-    //   int index = list[1];
-    //   return PageRouteBuilder<dynamic>(
-    //       settings: settings, pageBuilder: (_, __, ___) => ArticleCategoryTabPage(tree, index));
-    // },
+    PageNum.articleCategoryTabPage: (settings, uniqueId) {
+      var list = settings.arguments as List;
+      Tree tree = list[0] as Tree;
+      int index = list[1];
+      return PageRouteBuilder<dynamic>(
+          settings: settings, pageBuilder: (_, __, ___) => ArticleCategoryTabPage(tree, index));
+    },
 
     PageNum.messageListPage: (settings, uniqueId) {
       return PageRouteBuilder(
